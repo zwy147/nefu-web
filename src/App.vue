@@ -1,0 +1,19 @@
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#app {
+  /*背景图片*/
+    background-image: url("./assets/bg.jpg");
+
+}
+
+</style>
